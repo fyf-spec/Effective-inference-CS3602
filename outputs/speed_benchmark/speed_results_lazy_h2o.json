@@ -1,0 +1,52 @@
+{
+  "config": {
+    "model_name_or_path": "pythia-2.8b-local",
+    "output_dir": "outputs/speed_benchmark",
+    "mode": "lazy_h2o",
+    "seq_lengths": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "num_decode_tokens": 128,
+    "start_size": 4,
+    "recent_size": 252,
+    "heavy_size": 128,
+    "update_interval": 10
+  },
+  "results": [
+    {
+      "seq_length": 256,
+      "kv_cache_size": 384,
+      "avg_decode_latency_ms": 47.25867890670088,
+      "std_decode_latency_ms": 0.8943234545365244,
+      "total_decode_latency_ms": 6049.110900057713,
+      "tokens_per_sec": 21.160134458566265
+    },
+    {
+      "seq_length": 512,
+      "kv_cache_size": 384,
+      "avg_decode_latency_ms": 48.46430468705876,
+      "std_decode_latency_ms": 1.0650477575608455,
+      "total_decode_latency_ms": 6203.430999943521,
+      "tokens_per_sec": 20.633742843462816
+    },
+    {
+      "seq_length": 1024,
+      "kv_cache_size": 384,
+      "avg_decode_latency_ms": 48.04691015647222,
+      "std_decode_latency_ms": 0.9419533879945327,
+      "total_decode_latency_ms": 6150.004500028444,
+      "tokens_per_sec": 20.812992900965842
+    },
+    {
+      "seq_length": 2048,
+      "kv_cache_size": 384,
+      "avg_decode_latency_ms": 201.95973437569137,
+      "std_decode_latency_ms": 13.210910819455718,
+      "total_decode_latency_ms": 25850.846000088495,
+      "tokens_per_sec": 4.951482052059798
+    }
+  ]
+}

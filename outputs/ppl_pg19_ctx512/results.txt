@@ -1,0 +1,4 @@
+Mode: Baseline
+PPL: 14.6474
+Num tokens evaluated: 636884
+Num samples: 10

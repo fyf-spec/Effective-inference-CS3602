@@ -1,0 +1,26 @@
+Model: pythia-2.8b-local
+Text: The quick brown fox jumps over the lazy dog. What a beautiful day, isn't it?
+Layers: 32
+Heads: 32
+Sequence length: 19
+
+Tokens:
+  0: 'The'
+  1: 'Ġquick'
+  2: 'Ġbrown'
+  3: 'Ġfox'
+  4: 'Ġjumps'
+  5: 'Ġover'
+  6: 'Ġthe'
+  7: 'Ġlazy'
+  8: 'Ġdog'
+  9: '.'
+  10: 'ĠWhat'
+  11: 'Ġa'
+  12: 'Ġbeautiful'
+  13: 'Ġday'
+  14: ','
+  15: 'Ġisn'
+  16: "'t"
+  17: 'Ġit'
+  18: '?'
